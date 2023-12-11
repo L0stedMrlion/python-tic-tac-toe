@@ -1,4 +1,5 @@
 import json
+import os
 
 def load_language(file_path):
     with open(file_path, 'r') as file:
@@ -26,8 +27,22 @@ def is_winner(board, player):
 def is_board_full(board):
     return all(cell != ' ' for row in board for cell in row)
 
+def choose_language():
+    supported_languages = ["en", "ru", "cz"]
+    default_language = "en"
+
+    while True:
+        chosen_lang = input("Choose a language (en/ru/cz): ").lower()
+
+        if chosen_lang in supported_languages:
+            return chosen_lang
+        else:
+            print("Unsupported language. Defaulting to English.")
+            return default_language
+
 def play_game():
-    lang_file = "lang/en.json"
+    lang_code = choose_language()
+    lang_file = f"lang/{lang_code}.json"
     lang = load_language(lang_file)
 
     board = [[' ' for _ in range(3)] for _ in range(3)]
