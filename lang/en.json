@@ -1,0 +1,8 @@
+{
+    "welcome": "Welcome to Tic Tac Toe!",
+    "player_prompt": "Player {}, enter your move (row and column):",
+    "invalid_move": "Invalid move. Try again.",
+    "game_over": "Game over. {} wins!",
+    "tie": "It's a tie!"
+  }
+  
