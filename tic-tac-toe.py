@@ -27,7 +27,7 @@ def is_board_full(board):
     return all(cell != ' ' for row in board for cell in row)
 
 def play_game():
-    lang_file = "lang/eu.json"
+    lang_file = "lang/en.json"
     lang = load_language(lang_file)
 
     board = [[' ' for _ in range(3)] for _ in range(3)]

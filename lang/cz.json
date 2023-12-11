@@ -1,0 +1,8 @@
+{
+    "welcome": "Vítejte ve hře Piškvorky! 🎉",
+    "player_prompt": "Hráči {}, zadejte svůj tah (řádek a sloupec): 🕹️",
+    "invalid_move": "Neplatný tah. Zkuste to znovu. ❌",
+    "game_over": "Konec hry. Vyhrál {}! 🏆",
+    "tie": "Remíza! 🤝"
+  }
+  
