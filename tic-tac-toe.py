@@ -32,12 +32,12 @@ def choose_language():
     default_language = "en"
 
     while True:
-        chosen_lang = input("Choose a language (en/ru/cz): ").lower()
+        chosen_lang = input("🌐 Choose a language (en/ru/cz): ").lower()
 
         if chosen_lang in supported_languages:
             return chosen_lang
         else:
-            print("Unsupported language. Defaulting to English.")
+            print("❌ Unsupported language. Defaulting to English.")
             return default_language
 
 def play_game():
