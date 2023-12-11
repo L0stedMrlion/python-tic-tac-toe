@@ -1,2 +1,4 @@
-# python-tic-tac-toe
-🤖 Tic tac toe game coded using python
+# 🤖 Tic Tac Toe
+
+Jus a tic tac toe game coded using python. 
+
